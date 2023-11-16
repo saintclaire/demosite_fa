@@ -463,6 +463,16 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
+section#features {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.container.aos-init.aos-animate {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 .section-bg {
   background-color: #f3f5fa;
 }
@@ -479,6 +489,7 @@ section {
   position: relative;
   color: #37517e;
 }
+
 .section-title h2::before {
   content: '';
   position: absolute;
@@ -1547,3 +1558,4 @@ section {
       padding-top: 4px;
  }
 }
+
